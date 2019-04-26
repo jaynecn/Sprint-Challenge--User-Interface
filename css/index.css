@@ -66,10 +66,34 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    
+    padding: 30px 10px;
+
+
+}
+
+.lambda{
+    padding: 10px 10px;
+}
+
+section {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 10px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -79,7 +103,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .article {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -118,7 +142,7 @@ p {
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .article {
     padding-right: 4%;
 }
 
