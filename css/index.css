@@ -206,7 +206,11 @@ footer nav a {
 
 /* ABOUT PAGE CSS */
 
-.jumbo-image {
+/* body{
+    width: 800px;
+} */
+
+section .jumbo-image {
     width: 800px;
     margin: 0 auto;
     display: block;
@@ -228,7 +232,7 @@ section .about-intro {
 .container-about-page {
     width: 800px;
 }
-.container-about-page .row1{
+.row1{
     display: flex;
     margin: 800px;
     
@@ -238,8 +242,8 @@ section .about-intro {
 
 .container-about-page .row2{
     display: flex;
-    margin: 800px;
-    
+    width: 800px;
+    align-content: center;    
 	margin: 20px 10px;
 	padding: 10px 10px;
 }
