@@ -33,10 +33,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
- Coming from a standpoint of someone that has worked with html a little bit in the past, I would simply describe semantic HTML as "tidy HTML".  Tidy for you, as in 6 months time when you come back to your work it will be easier and quicker for you to understand the layout of your work.  But also easier for colleague to understand your work quickly.
+ Coming from a standpoint of someone that has worked with html a little bit in the past, I would simply describe semantic HTML as "tidy HTML".  Tidy for you, as when you use elements like /header/ /nav/ /main/ /footer/ instead of just div/ in 6 months time when you come back to your work it will be easier and quicker for you to understand the layout.  It's also easier for colleagues to understand your work quickly.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-display: inline can change the behaviour of an element so you can nest other elements inside it.  When you use display: block no other elements can be nested inside it. Diplay: inline gives you options for 
+display: inline can change the behaviour of an element so you can nest other elements inside it.  When you use display: block no other elements can be nested inside it. Diplay: inline behaves more as part of the document as a whole and will only take up the space it requires.  Display: block takes up the whole line.
 
 3. What are the 4 areas of the box model?
 content, padding, border, margin.
