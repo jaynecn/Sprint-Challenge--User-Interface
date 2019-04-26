@@ -89,7 +89,7 @@ section {
     width: 800px;
     margin: 0 auto;
     display: block;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
 }
 .container {
     width: 800px;
@@ -105,10 +105,12 @@ section {
     border-bottom: 1px dashed black;
 }
 
-.top-content .article {
+
+
+.top-content article {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -130,7 +132,6 @@ section {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -138,34 +139,35 @@ section {
     justify-content: center;
 }
 
-#box1{
-    background-color: teal;
+.teal{
+    background: teal;
 }
-#box2{
+
+.gold{
     background-color: gold;
 }
-#box3{
+.cadetblue{
     background-color: cadetblue;
 }
-#box4{
+.coral{
     background-color: coral;
 }
-#box5{
+.crimson{
     background-color: crimson;
 }
-#box6{
+.forestgreen{
     background-color: forestgreen;
 }
-#box7{
+.darkorchid{
     background-color: darkorchid;
 }
-#box8{
+.hotpink{
     background-color: hotpink;
 }
-#box9{
+.indigo{
     background-color: indigo;
 }
-#box10{
+.dodgerblue{
     background-color: dodgerblue;
 }
 
@@ -191,7 +193,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -211,60 +213,66 @@ section .jumbo-image {
     width: 800px;
     margin: 0 auto;
     display: block;
-    padding: 10px 10px;
+    padding: 10px 20px;
     }
 
-section .about-intro {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 10px 10px;
-    /* width: 800px;  */
-    padding: 10px 10px; */
+#about {
+   display: flex;
+   flex-direction: column;
+    padding: 10px 30px; 
+    margin: 0 auto;
     border-bottom: 1px dashed black;
 }
 
 .about-images { 
     display: flex;
-    padding: 20px 10px;
+    margin: 20px 5px;
+    padding: 5px 0px;
 }
 
 .row1 {
     display: flex;
-    justify-content: space-around;
-    margin: 10px 10px;
 }
 
 .row2{
     display: flex;
-    justify-content: space-around;
-    margin: 10px 10px;
+}
+
+.middle-content h2{
+    margin: 10px 20px;
+    margin-left: 30px;
+    padding: 10px 20px;
 }
 
 h3 {
-    padding: 10px 5px;
-    margin: 10px 5px;
+    margin: 10px 10px;
 }
 
 p {
-    padding: 10px 10px;
+    margin: 10px 10px;
 }
 .about-boxes{ 
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
 	align-items: flex-start;
 	border-bottom: 1px dashed black;
-	margin: 10px 201x;
-	padding: 10px 10px;
+	margin: 5px 20px;
 }
 
 .button{
 	display: flex;
-	align-items: flex-start;
+    align-items: flex-start;
     border: 1px solid black;
     border-radius: 10px;
 	background-color: white;
-	margin: 20px 120px 30px 5px;
-	padding: 10px 40px 10px 30px;
+	margin: 20px 100px 30px 15px;
+	padding: 10px 20px 10px 20px;
 	text-align: center;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px; 
+    margin: 0 auto;
 }
