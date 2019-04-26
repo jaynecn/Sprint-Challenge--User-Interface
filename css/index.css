@@ -213,29 +213,33 @@ footer nav a {
     padding: 10px 10px;
     }
 
-.about-intro {
+section .about-intro {
     width: 800px;
     flex-direction: column;
     display: flex;
+    martin-left: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.about-images {
+.about-images { 
+    padding: 10px 10px;
 }
-.row1{
-    /* width: 800px; */
-	display: flex;
-	justify-content: flex-start;
-    align-items: flex-start;
+.container-about-page {
+    width: 800px;
+}
+.container-about-page .row1{
+    display: flex;
+    margin: 800px;
+    
 	margin: 20px 10px;
 	padding: 10px 10px;
 }
 
-.row2{
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
+.container-about-page .row2{
+    display: flex;
+    margin: 800px;
+    
 	margin: 20px 10px;
 	padding: 10px 10px;
 }
