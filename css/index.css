@@ -66,10 +66,36 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    
+    padding: 30px 10px
+}
+
+nav a{ color: black;
+    text-decoration: none;
+}
+
+.lambda{
+    padding: 10px 10px;
+}
+
+section {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    /* padding: 10px 10px; */
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -79,10 +105,12 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+
+
+.top-content article {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -90,7 +118,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle text h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -104,12 +132,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.teal{
+    background: teal;
+}
+
+.gold{
+    background-color: gold;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.coral{
+    background-color: coral;
+}
+.crimson{
+    background-color: crimson;
+}
+.forestgreen{
+    background-color: forestgreen;
+}
+.darkorchid{
+    background-color: darkorchid;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.indigo{
+    background-color: indigo;
+}
+.dodgerblue{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -118,7 +177,7 @@ p {
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .article {
     padding-right: 4%;
 }
 
@@ -134,7 +193,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +202,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* ABOUT PAGE CSS */
+
+
+section .jumbo-image {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    }
+
+#about {
+   display: flex;
+   flex-direction: column;
+    padding: 10px 30px; 
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+}
+
+.about-images { 
+    display: flex;
+    margin: 20px 5px;
+    padding: 5px 0px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+
+.middle-content h2{
+    margin: 10px 20px;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+h3 {
+    margin: 10px 10px;
+}
+
+p {
+    margin: 10px 10px;
+}
+.about-boxes{ 
+    display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+	border-bottom: 1px dashed black;
+	margin: 5px 20px;
+}
+
+.button{
+	display: flex;
+    align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 10px;
+	background-color: white;
+	margin: 20px 100px 30px 15px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px; 
+    margin: 0 auto;
 }
