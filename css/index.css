@@ -71,46 +71,37 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     color: black;
-    
-    padding: 30px 10px
+    padding: 30px 0px
 }
 
 nav a{ color: black;
     text-decoration: none;
-}
-
-.lambda{
-    padding: 10px 10px;
+    font-weight: bold;
 }
 
 section {
     width: 800px;
+    padding: 10px 30px 20px 0px;
     margin: 0 auto;
     display: block;
-    /* padding: 10px 10px; */
 }
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
 
-
-
 .top-content article {
     width: 48%;
-    padding 0 1%;
-    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -118,10 +109,6 @@ section {
     border-bottom: 1px dashed black;
 }
 
-.middle text h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
 
 .middle-content .boxes {
     display: flex;
@@ -132,44 +119,118 @@ section {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    margin: 20px 2.5%;
+    margin: 10px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+@keyframes stretch {
+    0%, 100% {background-color: black;}
+  to {background-color: lightgray;}
+
+}
 
 .teal{
-    background: teal;
+    background: teal; 
+}
+.teal:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
 }
 
 .gold{
     background-color: gold;
 }
+.gold:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .cadetblue{
     background-color: cadetblue;
 }
+.cadetblue:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .coral{
     background-color: coral;
 }
+.coral:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .crimson{
     background-color: crimson;
 }
+.crimson:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .forestgreen{
     background-color: forestgreen;
 }
+.forestgreen:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .darkorchid{
     background-color: darkorchid;
 }
+.darkorchid:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .hotpink{
     background-color: hotpink;
 }
+.hotpink:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .indigo{
     background-color: indigo;
 }
+.indigo:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 .dodgerblue{
     background-color: dodgerblue;
 }
+.dodgerblue:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-direction: alternate;
+    animation-iteration-count: 6;
+}
+
 
 .bottom-content {
     display: flex;
@@ -178,7 +239,7 @@ section {
 }
 
 .bottom-content .article {
-    padding-right: 4%;
+    padding-right: 20px;
 }
 
 .bottom-content .text-container:last-child {
@@ -191,15 +252,16 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    margin: 10px 0px;
     font-size: 14px;
 }
 
 footer nav a {
+    padding: 0px 25px;
     color: white;
     text-decoration: none;
 }
@@ -239,40 +301,38 @@ section .jumbo-image {
 }
 
 .middle-content h2{
-    margin: 10px 20px;
-    margin-left: 30px;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 h3 {
-    margin: 10px 10px;
+    margin: 10px 0px;
 }
 
 p {
-    margin: 10px 10px;
+    margin: 10px 0px;
 }
 .about-boxes{ 
     display: flex;
     flex-direction: column;
 	align-items: flex-start;
 	border-bottom: 1px dashed black;
-	margin: 5px 20px;
+	margin: 0px 20px;
 }
 
 .button{
 	display: flex;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
 	background-color: white;
-	margin: 20px 100px 30px 15px;
-	padding: 10px 20px 10px 20px;
+    margin: 10px 100px 20px 0px;
+	padding: 10px 25px 10px 20px;
 	text-align: center;
 }
 
 #work {
     display: flex;
     flex-direction: column;
-    padding: 10px 30px; 
+    padding: 10px 20px; 
     margin: 0 auto;
 }
