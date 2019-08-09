@@ -1,0 +1,55 @@
+@media (max-width: 550px) {
+  :root {
+    font-size: 18px;
+  }
+  body {
+   padding: 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav a {
+    text-decoration: underline;
+  }
+  .jumbo-image {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .lambda2 {
+    width: 75%;
+  }
+  .top-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .middle-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bottom-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+    width: auto;
+  }
+
+
+
+}
